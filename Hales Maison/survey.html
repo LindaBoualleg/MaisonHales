@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    
+    <script src="https://kit.fontawesome.com/078b7282ec.js" crossorigin="anonymous"></script>
+    <title>Survey</title>
+</head>
+<body>
+    <header class="title">
+    <a href="index.html"><img src="hales2.png" height="100px" width="120px"></im></a>
+    <h1>Beauty Survey</h1>
+    <p>Give Us Some Information About You</p>
+    </header>   
+    
+    <div class="survey">
+        <div class="q1">
+            <h3>What Type Of Skin Do You Have?</h3>
+
+            <ul class="option1">
+            <li value="normal" onclick="option1(this)">Normal Skin</li>
+            <li value="sensitive" onclick="option1(this)">Sensitive Skin</li>
+            <li value="dry" onclick="option1(this)">Dry Skin</li>
+            <li value="oily" onclick="option1(this)">Oily Skin</li>
+            </ul>
+        </div>
+        <div class="q2">
+            <h3>What Are your Concerns?</h3>
+
+            <ul class="option2">
+            <li value="pimples" onclick="option2(this)">Pimples</li>
+            <li value="spots" onclick="option2(this)">Pigmentation Spots</li>
+            <li value="flaky" onclick="option2(this)">Flaky/Rough Skin</li>
+            <li value="pores" onclick="option2(this)">Clogged Pores</li>
+        </ul>
+        </div>
+        <div class="q3">
+            <h3>What Is Your Age?</h3>
+        
+            <ul class="option3">
+            <li value="14" onclick="option3(this)">14-24</li>
+            <li value="25" onclick="option3(this)">25-35</li>
+            <li value="36" onclick="option3(this)">36-49</li>
+            <li value="50" onclick="option3(this)">>50</li>
+            </ul>
+        </div>
+    </div>
+    <div class="end">
+        <p>Your Product Is : </p>
+        <div class="recommend">
+
+        </div>
+        <button><a href="index.html">Home</a></button>
+    </div>
+    <script src="script2.js" async></script>
+</body>
+</html>
